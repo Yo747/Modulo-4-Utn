@@ -11,6 +11,8 @@ import ContactPage from "./Pag/contactPage";
 import IndexPage from "./Pag/indexPage";
 import diseñadoresPage from "./Pag/diseñadoresPage";
 import newspage from "./Pag/newsPage";
+import ServidorPage from "./Pag/servidorPage";
+import FotosPage from "./Pag/fotosPage";
 
 
 
@@ -22,10 +24,12 @@ function App() {
       <Nav></Nav>
 <Switch>
       <Route path="/" exact component={IndexPage} />
-      <Route path="/diseñadoresPage" exact component={diseñadoresPage} />
-      <Route path="/noticiasPage" exact component={newspage} />
-      <Route path="/contactoPage" exact component={ContactPage} />
-</Switch>
+      <Route path="/Diseñadores" exact component={diseñadoresPage} />
+      <Route path="/News" exact component={newspage} />
+      <Route path="/Contact" exact component={ContactPage} />
+      <Route path = "/Servidor" exact component= {ServidorPage} />
+      <Route path = "/Fotos" exact component= {FotosPage} />
+      </Switch>
   
       <Footer></Footer>
     </Router>
