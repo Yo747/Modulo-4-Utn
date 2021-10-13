@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Components/Pages/servidorPage.css"
 const ServidorPage = (props) => {
     return (
     <main class="holder">

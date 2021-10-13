@@ -1,0 +1,13 @@
+/* Inicio galeria */
+
+.Galery {display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+     
+    .Picture{ border: solid 4px black;
+    width: 100%;}
+
+   .Galery .Picture:nth-child(1) :hover{transition: 4s; opacity: 0;}
+
+   /* Fin galeria */

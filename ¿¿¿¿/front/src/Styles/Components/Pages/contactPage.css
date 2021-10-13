@@ -1,0 +1,26 @@
+/* Inicio contacto */
+
+.columna {width: 50%;
+    box-sizing: border-box;
+  padding: 0.6em;}
+   
+  .columna.left{border-right: 1px solid black;}
+  
+  .columna.right p {font-size: 1em;}
+  
+  .columna.right ul li {font-size: 1em;}
+  
+  .formula label {vertical-align: top;
+  width: 15%;
+  display: inline-block;}
+  
+  .formulario input,
+  .formulario textarea {background-color: white;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 0.3em 0.5em;
+  font-size: 0.7em;
+  width: 70%;}
+  
+  
+  /* Fin contacto */

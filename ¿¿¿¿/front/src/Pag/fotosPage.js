@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Components/Pages/fotosPage.css"
 const FotosPage = (props) => {
     return (
     <main class="holder">

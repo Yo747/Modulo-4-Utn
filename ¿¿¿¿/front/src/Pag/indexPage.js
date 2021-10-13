@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Components/Pages/indexPage.css"
 const IndexPage = (props) => {
     return (
         <main class="holder">

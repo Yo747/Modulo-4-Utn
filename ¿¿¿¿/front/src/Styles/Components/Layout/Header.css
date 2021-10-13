@@ -1,0 +1,9 @@
+header{background-color: yellow;
+    padding: 1em 0;}
+    
+    header h1{color: black;
+    font-style: normal;
+    display: inline-flex;
+    position: relative;
+    bottom: 40px;}
+    

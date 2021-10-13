@@ -1,0 +1,23 @@
+/* Inicio home */
+
+
+
+.obrero{display: flex;
+    justify-content: center;
+    margin-bottom: 2em;}
+    
+    
+    
+    .aviso{width: 75%;}
+    
+    .reviews{width: 25%;}
+    
+    .review{background-color: yellow;
+    padding: 1em;
+    font-style: italic;
+    }
+    
+    .y{overflow: hidden;}
+    
+    /* Fin home */
+    

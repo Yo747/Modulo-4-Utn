@@ -1,0 +1,14 @@
+/* Inicio servicio? */
+
+.servicio{border: 1px solid black;
+    border-radius: 0.7em;
+    margin: 1em;
+    padding: 1em;
+    overflow: hidden;}
+    .servicio .información h4{ color: darkblue;
+    font-size: larger;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;}
+    /* Fin servicio? */
+    
