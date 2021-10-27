@@ -1,0 +1,11 @@
+<h1> {{title}}</h1>
+{{#if edad}}
+<p>Usted tiene {{numero}} <a href="/salir">Exit</a></p>
+{{/if}}
+
+{{#unless edad}}
+<p>Ingrese edad numerica + palabra años</p>
+<form action="/enter" method="post">
+<input type="text" name="numero"><button>Enter</button>
+</form>
+{{/unless}}

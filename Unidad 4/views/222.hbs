@@ -1,0 +1,11 @@
+<h1> {{title}}</h1>
+{{#if constante}}
+<p> Usted ingreso {{variable}} <a href="/000">Exit</a></p>
+{{/if}}
+
+{{#unless constante}}
+<p>Ingrese algo, lo que sea</p>
+<form action="/333" method="post">
+<input type="text" name="variable"><button>Enter</button>
+</form>
+{{/unless}}
